@@ -19,9 +19,9 @@ Task 2 Spell Error Correction
 (a) Induce minimum three spell errors randomly in your query words: i) W1: delete one character, ii) W2: insert and delete one character, and iii) W3: swap two random non-adjacent characters. Display the potential correct term based on the Levenshtein edit distance score for each query. You can define a threshold
 for selecting the term. Cost of insertion = deletion = 1, substitution = 2. It should not be too less or too large. Result format:
 
-Query ID | Typo          |            Term Distance
+Query ID | Typo          |            Term | Distance
 
-123   |    Infotmarion Information  |  4
+123   |    Infotmarion | Information  |  4
 
 (b) Using the same threshold as Task 2a, improve the top K precision for your queries. K = 5 and 10. Refer this model to as M spell . Display results in a suitable format.
 
