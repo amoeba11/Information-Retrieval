@@ -1,17 +1,18 @@
 # Information-Retrieval
 
-Building Weighted TF-IDF Model, Introducing Spell Error Correction and Improving Efficiency of Model.
+## Building Weighted TF-IDF Model, Introducing Spell Error Correction and Improving Efficiency of Model.
 
+```
 1. ir_2.py - code file
 2. documents.txt - contains the documents 
 3. query.txt - queries provided for the documents
 4. relevance_assessment.txt - relevant documents for each query from query.txt file to calculate precision and recall recall metrics
-
+```
 
 In ir_2.py (code file) -
 
 
-Task 1 Weighted TF-IDF Model
+### Task 1 Weighted TF-IDF Model
 
 (a) Implement a weighted TF-IDF model M f ull for I f ull . Rank the documents as per their relevance score. Display the top 20 results (decreasing order of score) in form of a table. Format:
 
@@ -23,7 +24,7 @@ Query ID | Doc IDs   |    Scores
 available.
 
 
-Task 2 Spell Error Correction
+### Task 2 Spell Error Correction
 
 (a) Induce minimum three spell errors randomly in your query words: i) W1: delete one character, ii) W2: insert and delete one character, and iii) W3: swap two random non-adjacent characters. Display the potential correct term based on the Levenshtein edit distance score for each query. You can define a threshold
 for selecting the term. Cost of insertion = deletion = 1, substitution = 2. It should not be too less or too large. Result format:
@@ -39,7 +40,7 @@ Query ID | Typo          |            Term | Distance
 (d) Using the same threshold as Task 2a, and updated queries after addressing QWERTY typographical errors, improve the top K precision for your queries. K = 5 and 10. Refer this model to as M qwerty .
 
 
-Task 3 Efficiency Model
+### Task 3 Efficiency Model
 
 (a) Display the time (in seconds) taken by M f ull , M P , M spell , and M qwerty for each respective query.
 
