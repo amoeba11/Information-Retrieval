@@ -2,6 +2,13 @@
 
 Building Weighted TF-IDF Model, Introducing Spell Error Correction and Improving Efficiency of Model.
 
+1. ir_2.py - code file
+2. documents.txt - contains the documents 
+3. query.txt - queries provided for the documents
+4. relevance_assessment.txt - relevant documents for each query from query.txt file to calculate precision and recall recall metrics
+
+
+
 Task 1 Weighted TF-IDF Model
 
 (a) Implement a weighted TF-IDF model M f ull for I f ull . Rank the documents as per their relevance score. Display the top 20 results (decreasing order of score) in form of a table. Format:
