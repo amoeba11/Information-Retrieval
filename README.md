@@ -8,6 +8,8 @@ Building Weighted TF-IDF Model, Introducing Spell Error Correction and Improving
 4. relevance_assessment.txt - relevant documents for each query from query.txt file to calculate precision and recall recall metrics
 
 
+In ir_2.py (code file) -
+
 
 Task 1 Weighted TF-IDF Model
 
