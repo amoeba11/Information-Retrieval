@@ -7,6 +7,7 @@ Task 1 Weighted TF-IDF Model
 (a) Implement a weighted TF-IDF model M f ull for I f ull . Rank the documents as per their relevance score. Display the top 20 results (decreasing order of score) in form of a table. Format:
 
 Query ID  Doc IDs       Scores
+
 123       1, 2, 5, 6    0.7, 0.66, 0.56, 0.4
 
 (b) Improve the top-K precision of your model. Plot a grouped bar plot for top-K precision and recall of M P . X axis has query ID, Y axis has scores and legends represent the Precision and Recall. Plot three subplots for K = 2, 5, and 10. If number of results are lesser than 10 then plot the result for maximum value
@@ -19,6 +20,7 @@ Task 2 Spell Error Correction
 for selecting the term. Cost of insertion = deletion = 1, substitution = 2. It should not be too less or too large. Result format:
 
 Query ID  Typo                      Term Distance
+
 123       Infotmarion Information   4
 
 (b) Using the same threshold as Task 2a, improve the top K precision for your queries. K = 5 and 10. Refer this model to as M spell . Display results in a suitable format.
